@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(204, 204, 204);
+}
+
+header {
+  background-color: rgb(1, 1, 64);  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 2rem;
+  color: white;
+}
+header h1 {
+    cursor: pointer;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+header button:not(:first-child) {
+    border-left: 2px solid white;
+}
+
+main {
+    padding: 5rem;
+}
+
+main .carregar-mais {
+    display: block;
+    margin-top: 2rem;
+    margin-inline: auto;
+    border: none;
+    background-color:  rgb(1, 1, 64);
+    border-radius: 4px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+#pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pokemon {
+    background-color: white;
+    width: 10rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+    padding:  1rem;
+}
+
+.pokemon img {
+    width: 100%;
+    height: 60%;
+}
+
+.type {
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+
+.type.grass {
+    background-color: rgb(18, 161, 18);
+    color: white;
+}
+    
+.type.dragon {
+    background-color: rgb(61, 18, 161);
+    color: white;
+}
+    
+.type.poison {
+    background-color: blueviolet;
+    color: white;
+}
+
+.type.bug {
+    background-color: rgb(185, 255, 21);
+}
+
+.type.water {
+    background-color: rgb(0, 149, 255);
+    color: white;
+}
+
+.type.fire {
+    background-color: orangered;
+    color: white;
+}
+
+.type.normal {
+    background-color: rgb(204, 204, 204);
+}
+
+.type.flying {
+    background: -webkit-linear-gradient(90deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+
+.type.ground {
+    background: rgb(164, 107, 0);
+    color: white;
+}
+
+.type.fairy {
+    background-color: rgb(255, 157, 173);
+}
+
+.type.electric {
+    background-color: rgb(255, 238, 1);
+}
+
+.type.psychic {
+    background-color: rgb(255, 61, 193);
+    color: white;
+}
+
+.type.ghost {
+    background-color: rgb(73, 32, 121);
+    color: white;
+}
+
+.type.ice {
+    background-color: rgb(156, 237, 255);
+}
+
+.type.fighting {
+    background-color: rgb(166, 26, 26);
+    color: white;
+}
+
+.type.dark {
+    background-color: rgb(93, 68, 52);
+    color: white;
+}
+
+.type.rock {
+    background-color: rgb(178, 149, 98);
+}
+
+.type.steel {
+    background-color: rgb(112, 154, 184);
+    color: white;
+}
